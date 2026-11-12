@@ -108,7 +108,7 @@ C Test of Strength|QID|1151|QO|1|M|17.27,37.07|Z|1441; Thousand Needles|L|5844|I
 R The Weathered Nook|ACTIVE|1151|M|53.62,42.54|Z|1441; Thousand Needles|N|Choose your own path back.\n[color=FF0000]NOTE: [/color]If your Hearth is up, use it and shorten the travel distance or save for the trip back.|
 T Test of Strength|QID|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
 A Test of Lore|QID|1152|PRE|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
-C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
+C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|ITEM|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
 C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.81,24.45|Z|1441; Thousand Needles|L|12946|ITEM|12946|N|Enraged Panther.\n[color=FF0000]NOTE: [/color]Make your way to the area where the cage is and once you're there, clear the area of any and all mobs. When you're ready, open the cage and prepare to fight.\n\nThis'll be your last chance to do it.|
 R Whitereach Post|ACTIVE|1153|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
 
@@ -279,7 +279,7 @@ A The Corrupter|QID|1480|M|PLAYER|CC|N|Click on the Flayed Demon Skin to start t
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you can safely destroy them.|U|20310|O|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
 C Sceptre of Light|QID|5741|M|55.17,30.09|Z|1443; Desolace|L|15750|ITEM|15750|N|the Burning Blade Seer at the top of the Watchtower just inside the entrance to Thunder Axe Fortress.\n[color=FF0000]NOTE: [/color]He has 2 Felsworn guards outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
-C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|S|
+C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|US|
 C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.|U|6436|C|-Druid|US|
 T Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443; Desolace|N|To Azore Aldamort in Ethel Rethor.|
 A Book of the Ancients|QID|6027|M|38.89,27.16|Z|1443; Desolace|N|From Azore Aldamort.|
@@ -336,7 +336,7 @@ T Stealing Supplies|QID|1370|M|36.24,79.24|Z|1443; Desolace|N|To Uthek the Wise 
 A Ongeku|QID|1373|M|36.24,79.20|Z|1443; Desolace|N|From Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 R Shadowprey Village|AVAILABLE|6161|M|26.17,74.63|Z|1443; Desolace|N|Return to Shadowprey Village.|
 N Shortcut|AVAILABLE|6161|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Clam Bait|ACTIVE|6142|M|45.20,63.80|Z|1443; Desolace|L|15924 10|N|Open Soft-shelled Clams.\n[color=FF0000]NOTE: [/color]You can get them from opening the Giant Soft Clams (guaranteed and static spawn points) on the ocean floor, or a drop chance by killing Drysnap Crawlers/Pincers and Reef Crawlers.\nIt's best to attack the Reef Crawler before they take your Giant Clam.|U|15874|S|
+C Clam Bait|QID|6142|M|45.20,63.80|Z|1443; Desolace|L|15924 10|N|Open Soft-shelled Clams.\n[color=FF0000]NOTE: [/color]You can get them from opening the Giant Soft Clams (guaranteed and static spawn points) on the ocean floor, or a drop chance by killing Drysnap Crawlers/Pincers and Reef Crawlers.\nIt's best to attack the Reef Crawler before they take your Giant Clam.|U|15874|S|
 R Ethel Rethor|AVAILABLE|6161|M|30.55,34.26;35.66,30.67|CC|Z|1443; Desolace|N|Walk into the water and swim north.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|1443; Desolace|N|From Rackmore's Log on top of the barrel beside the wreckage of the boat on shore.|
 C Other Fish to Fry|QID|6143|QO|1;2;3|M|28.68,7.01|Z|1443; Desolace|N|Kill the required Nagas.|S|
